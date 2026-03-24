@@ -1,0 +1,19 @@
+# Python cache and virtualenv
+__pycache__/
+*.py[cod]
+.venv/
+
+# Logs and editor settings
+logs_seq/
+train_log/
+train_log_pro/
+.vscode/
+
+# Large dataset archives
+data/*.tar.gz
+data/*.zip
+
+# Large model artifacts
+*.pth
+*.pt
+*.onnx
